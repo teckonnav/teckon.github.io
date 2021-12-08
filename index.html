@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>天港导航</title>
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+	<meta content="telephone=no,email=no" name="format-detection">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<meta name="apple-touch-fullscreen" content="yes" />
+	<meta name="keywords" content="天港导航" />
+	<meta name="description" content="一个简单美观可自定义的网址导航" />
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/yidong.css" />
+	<!-- 本项目开源地址：https://github.com/appexplore/jianavi 请勿完全抄袭源码，请勿声明自己是原创 -->
+</head>
+
+<body>
+	
+	
+	<!-- 搜索栏start -->
+	<div class="baidu baidu-2">
+		<form name="f" action="https://www.baidu.com/s" target="_blank">
+			<div class="Select-box-2" id="baidu">
+				<ul>
+					<li class="this_s">百 度</li>
+					<li class="miji_s">多 吉</li>
+					<li class="bing_s">必 应</li>
+					<li class="google_s">谷 歌</li>
+					<li class="baidu_s">百 度</li>
+				</ul>
+			</div>
+			<div class="in5">
+				<input name="wd" id="kw-2" maxlength="100" autocomplete="off" type="text">
+				<div class="qingkong" id="qingkong" title="清空">x</div>
+			</div>
+			<input value="搜 索" id="su-2" type="submit">
+		</form>
+		<ul class="keylist"></ul>
+	</div>
+	<!-- 搜索栏end -->
+	
+	<!-- 天气栏start -->
+	<div id="tp-weather-widget"></div>
+<script>
+  (function(a,h,g,f,e,d,c,b){b=function(){d=h.createElement(g);c=h.getElementsByTagName(g)[0];d.src=e;d.charset="utf-8";d.async=1;c.parentNode.insertBefore(d,c)};a["SeniverseWeatherWidgetObject"]=f;a[f]||(a[f]=function(){(a[f].q=a[f].q||[]).push(arguments)});a[f].l=+new Date();if(a.attachEvent){a.attachEvent("onload",b)}else{a.addEventListener("load",b,false)}}(window,document,"script","SeniverseWeatherWidget","//cdn.sencdn.com/widget2/static/js/bundle.js?t="+parseInt((new Date().getTime() / 100000000).toString(),10)));
+  window.SeniverseWeatherWidget('show', {
+    flavor: "bubble",
+    location: "WTMKQ069CCJ7",
+    geolocation: true,
+    language: "auto",
+    unit: "c",
+    theme: "auto",
+    token: "802895d8-3cc8-48e9-971c-77c191202290",
+    hover: "enabled",
+    container: "tp-weather-widget"
+  })
+</script>
+	<!--天气栏start -->
+
+	<!-- 内容start -->
+	<div class="body">
+		<div class="content">
+			<div class="jianjie">
+				<div class="jj-list">
+					<div class="jj-list-tit">常用 · 生活</div>
+					<ul class="jj-list-con">
+						<li><a href="http://www.teckongroup.com/" class="link-3" target="_blank" rel="nofollow">官网</a></li>
+						<li><a href="http://oa.teckongroup.com/login/Login.jsp?logintype=1" class="link-3" target="_blank" rel="nofollow">办公OA</a></li>
+						<li><a href="http://teckon.xms.foxhis.com:8080/WebXMS/" class="link-3" target="_blank" rel="nofollow">西软XMS</a></li>
+						<li><a href="https://www.amap.com/" class="link-3" target="_blank" rel="nofollow">地图</a></li>
+						<li><a href="https://translate.google.cn/" class="link-3" target="_blank" rel="nofollow">翻译</a>
+						</li>
+						<li><a href="https://hao.qq.com/qita/youxiang.html" class="link-3" target="_blank"
+								rel="nofollow">邮箱</a></li>
+						<li><a href="https://etax.zhejiang.chinatax.gov.cn/" class="link-3" target="_blank" rel="nofollow">浙江税务</a>
+						</li>
+						<li><a href="https://etax.ningbo.chinatax.gov.cn" class="link-3" target="_blank" rel="nofollow">宁波税务</a>
+						</li>
+						<li><a href="http://tjj.zj.gov.cn/col/col1530713/index.html" class="link-3" target="_blank" rel="nofollow">统计申报</a></li>
+						
+					</ul>
+				</div>
+				<div class="jj-list">
+					<div class="jj-list-tit">工作 · 社区</div>
+					<ul class="jj-list-con">
+						<li><a href="https://md.teckongroup.com/#/setting/auth/user" class="link-3" target="_blank" rel="nofollow">官微后台</a></li>
+						<li><a href="http://123.sogou.com/shwz/yinhang.html" class="link-3" target="_blank"
+							rel="nofollow">各个银行</a></li>
+						<li><a href="http://60.12.213.156:3383/" class="link-3" target="_blank" rel="nofollow">用友NC</a></li>
+						<li><a href="https://corporbank-simp.icbc.com.cn/icbc/normalbank/index.jsp/" class="link-3" target="_blank" rel="nofollow">工商银行</a></li>
+						<li><a href="https://www.hxb.com.cn/index.shtml/" class="link-3" target="_blank" rel="nofollow">华夏银行</a>
+						</li>
+						
+						<li><a href="https://corporbank.abchina.com/CorporServPlat/netBank/zh_CN/CorporServPlatStartUpAct.do" class="link-3" target="_blank" rel="nofollow">农业银行</a></li>
+                      <li><a href="http://isv.shanghankj.com/merchant/login" class="link-3" target="_blank"
+								rel="nofollow">客房收款后台</a></li>
+						<li><a href="http://sh.aduer.com/" class="link-3" target="_blank" rel="nofollow">餐饮收款后台</a></li>
+							<li><a href="https://service.chinaums.com/uis/uisWebLogin/login" class="link-3" target="_blank" rel="nofollow">银联商务</a></li>
+                   
+					</ul>
+				</div>
+				<div class="jj-list">
+					<div class="jj-list-tit">影音 · 娱乐</div>
+					<ul class="jj-list-con">
+						<li><a href="http://wt.hzwgc.com/wangting/" class="link-3" target="_blank" rel="nofollow">杭州水务</a></li>
+						 <li><a href="https://pay.weixin.qq.com/index.php/" class="link-3" target="_blank" rel="nofollow">微信后台</a></li>
+						<li><a href="http://www.95598.cn/member/login.shtml" class="link-3" target="_blank" rel="nofollow">国家电网</a>
+						</li>
+						<li><a href="https://sdb42o0inm.jiandaoyun.com/f/5f3a1b5b94f51f00066b90df/" class="link-3" target="_blank" rel="nofollow">收银每日上报</a></li>
+						<li><a href="https://work.weixin.qq.com/" class="link-3" target="_blank" rel="nofollow">企业微信</a></li>
+						<li><a href="https://jh.leshuazf.com/#/login" class="link-3" target="_blank" rel="nofollow">乐刷</a></li>
+						<li><a href="https://ecom.meituan.com/" class="link-3" target="_blank" rel="nofollow">美团后台</a></li>
+						<li><a href="https://ebooking.ctrip.com/" class="link-3" target="_blank" rel="nofollow">携程后台</a>
+						</li>
+						<li><a href="https://qinmei.video/" class="link-3" target="_blank" rel="nofollow">Qinmei</a>
+						</li>
+					</ul>
+				</div>
+				<div class="jj-list">
+					<div class="jj-list-tit">发现 · 世界</div>
+					<ul class="jj-list-con">
+						<li><a href="https://www.baidu.com/" class="link-3" target="_blank" rel="nofollow">百度</a>
+						</li>
+						<li><a href="https://www.google.com.hk" class="link-3" target="_blank"
+								rel="nofollow">谷歌</a></li>
+						<li><a href="https://sspai.com/" class="link-3" target="_blank" rel="nofollow">少数派</a></li>
+						<li><a href="https://jikipedia.com/" class="link-3" target="_blank" rel="nofollow">小鸡词典</a></li>
+						<li><a href="https://jandan.net/" class="link-3" target="_blank" rel="nofollow">煎蛋</a></li>
+						<li><a href="https://youquhome.com/" class="link-3" target="_blank" rel="nofollow">有趣网址</a></li>
+						<li><a href="https://site.nihaowang.com/" class="link-3" target="_blank" rel="nofollow">外网导航</a>
+						</li>
+						<li><a href="https://houxu.app/" class="link-3" target="_blank" rel="nofollow">后续</a></li>
+						<li><a href="https://ac.scmor.com/" class="link-3" target="_blank" rel="nofollow">思谋学术</a></li>
+					</ul>
+				</div>
+				<div class="jj-list">
+					<div class="jj-list-tit">在线 · 工具</div>
+					<ul class="jj-list-con">
+						<li><a href="http://xiuxiu.web.meitu.com/" class="link-3" target="_blank"
+								rel="nofollow">在线修图</a></li>
+						<li><a href="https://cowtransfer.com/" class="link-3" target="_blank" rel="nofollow">收发文件</a>
+						</li>
+						<li><a href="https://cli.im/" class="link-3" target="_blank" rel="nofollow">二维码</a></li>
+						<li><a href="http://mail.bccto.me/?lang=cn" class="link-3" target="_blank"
+								rel="nofollow">临时邮箱</a></li>
+						<li><a href="https://www.materialtools.com/" class="link-3" target="_blank"
+								rel="nofollow">临时短信</a></li>
+						<li><a href="https://convertio.co/zh/" class="link-3" target="_blank" rel="nofollow">格式转换</a>
+						</li>
+						<li><a href="http://www.hiwenku.com/" class="link-3" target="_blank" rel="nofollow">文档下载</a>
+						</li>
+						<li><a href="https://im.dingtalk.com/" class="link-3" target="_blank" rel="nofollow">钉钉网页版</a>
+						</li>
+						<li><a href="https://wx.qq.com/" class="link-3" target="_blank" rel="nofollow">微信网页版</a>
+						</li>
+					</ul>
+				</div>
+				<div class="jj-list">
+					<div class="jj-list-tit">软件 · 资源</div>
+					<ul class="jj-list-con">
+						<li><a href="https://www.cupfox.com/" class="link-3" target="_blank" rel="nofollow">茶杯狐</a></li>
+						<li><a href="https://www.dy2018.com/" class="link-3" target="_blank" rel="nofollow">电影天堂</a></li>
+						<li><a href="https://www.coolist.net/" class="link-3" target="_blank" rel="nofollow">酷软清单</a>
+						</li>
+						<li><a href="https://www.kancloud.cn/ylt1993/coolist/1936886/" class="link-3" target="_blank" rel="nofollow">软件清单</a></li>
+						<li><a href="https://zhengbanxianmian.com/" class="link-3" target="_blank"
+								rel="nofollow">软件限免</a></li>
+						<li><a href="https://www.portablesoft.org/" class="link-3" target="_blank"
+								rel="nofollow">便携软件</a></li>
+						<li><a href="https://platform.wps.cn/" class="link-3" target="_blank" rel="nofollow">WPS</a>
+						</li>
+						<li><a href="https://474b.com/dir/21387396-35253758-ef5905" class="link-3" target="_blank" rel="nofollow">解压缩软件</a>
+						</li>
+						<li><a href="http://teckon.xms.foxhis.com:8080/WebXMS/xmsenv.exe" class="link-3" target="_blank" rel="nofollow">西软XMS文件</a></li>
+					</ul>
+				</div>
+			</div>
+			<!-- 内容end -->
+			<!-- 底部版权start -->
+			<!-- 开源不易，请勿去除下方版权信息 -->
+			<!-- 如果您想修改下方版权信息，请打赏并留言您的网址 >> https://afdian.net/@appts -->
+
+			<div class="footer1">Copyright © 2020
+				<a href="https://www.appts.cn/" style="color:#ffffff;" target="_blank" rel="nofollow">软件探索 </a>
+				<a href="https://afdian.net/p/15771a3c764711ea99de52540025c377" style="color:#ffffff;" target="_blank"
+					rel="nofollow">打赏 </a>
+			</div>
+		</div>
+
+			<div class="footer">Copyright © 2020-2021
+				<a href="https://www.leiti.ng/" style="color:#ffffff;" target="_blank" rel="nofollow">华杨网络 </a>
+				<a href="http://www.teckonhotel.com/?/hotel-xiyue/read/6/" style="color:#ffffff;" target="_blank"
+					rel="nofollow">杭州天港禧悦酒店 </a>
+			</div>
+			<!-- 底部版权end -->
+	</div>
+
+	
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/js.js"></script>
+</body>
+
+</html>
