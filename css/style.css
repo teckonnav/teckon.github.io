@@ -3,8 +3,10 @@ body, ul, li, h1, h2, h3, h4, h5, h6, p, form, dl, dt, dd { margin: 0px; padding
 img { border-style: none;}
 li{ list-style: none; float: left}
 a{ text-decoration: none}
+
+ /*background-image: url(../img/f3613fa0-4111-45f0-a4a5-74c1b587184b_.jpg);/*
 body {	
-    /*background-image: url(../img/f3613fa0-4111-45f0-a4a5-74c1b587184b_.jpg);/*
+   
 	background-image:url('http://img.yangleiting.com/teckonav/teckonav2.jpg')
 	background-size: cover;
 	background-repeat: no-repeat;
