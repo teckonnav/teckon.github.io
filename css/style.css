@@ -5,7 +5,7 @@ li{ list-style: none; float: left}
 a{ text-decoration: none}
 body {	
     /*background-image: url(../img/f3613fa0-4111-45f0-a4a5-74c1b587184b_.jpg);/*
-	background-image: url(http://img.yangleiting.com/teckonav/teckonav2.jpg)
+	background-image:url('http://img.yangleiting.com/teckonav/teckonav2.jpg')
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
